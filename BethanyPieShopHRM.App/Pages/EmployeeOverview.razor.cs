@@ -1,5 +1,6 @@
 ﻿using BethanysPieShopHRM.App.Models;
 using BethanysPieShopHRM.Shared.Domain;
+using Microsoft.AspNetCore.Components;
 
 namespace BethanyPieShopHRM.App.Pages
 {
