@@ -5,7 +5,9 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyPieShopHRM.App", "BethanyPieShopHRM.App\BethanyPieShopHRM.App.csproj", "{86107AD6-0650-45F7-93F8-465A648E9458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Shared", "..\materials\Assets\m3\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj", "{200F44F8-A366-4C73-82EB-BA15BAA2E6B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Shared", "BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj", "{677EEB9B-C163-4E74-934D-40D6AD6125BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Api", "BethanysPieShopHRM.Api\BethanysPieShopHRM.Api.csproj", "{9B7CAC78-9F0E-40F9-9D09-30A9054FC20F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{86107AD6-0650-45F7-93F8-465A648E9458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86107AD6-0650-45F7-93F8-465A648E9458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86107AD6-0650-45F7-93F8-465A648E9458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{200F44F8-A366-4C73-82EB-BA15BAA2E6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{200F44F8-A366-4C73-82EB-BA15BAA2E6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{200F44F8-A366-4C73-82EB-BA15BAA2E6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{200F44F8-A366-4C73-82EB-BA15BAA2E6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677EEB9B-C163-4E74-934D-40D6AD6125BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677EEB9B-C163-4E74-934D-40D6AD6125BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677EEB9B-C163-4E74-934D-40D6AD6125BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677EEB9B-C163-4E74-934D-40D6AD6125BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7CAC78-9F0E-40F9-9D09-30A9054FC20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7CAC78-9F0E-40F9-9D09-30A9054FC20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7CAC78-9F0E-40F9-9D09-30A9054FC20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7CAC78-9F0E-40F9-9D09-30A9054FC20F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
