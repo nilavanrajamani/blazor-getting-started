@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Api", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyPieShopHRM.ComponentsLibrary", "BethanyPieShopHRM.ComponentsLibrary\BethanyPieShopHRM.ComponentsLibrary.csproj", "{17313F06-5E15-436C-8432-0660C24D99FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.App.Tests", "BethanysPieShopHRM.App.Tests\BethanysPieShopHRM.App.Tests.csproj", "{AFCDCDD6-891D-49A3-8F31-B61900BCCA11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{17313F06-5E15-436C-8432-0660C24D99FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17313F06-5E15-436C-8432-0660C24D99FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17313F06-5E15-436C-8432-0660C24D99FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCDCDD6-891D-49A3-8F31-B61900BCCA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCDCDD6-891D-49A3-8F31-B61900BCCA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCDCDD6-891D-49A3-8F31-B61900BCCA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCDCDD6-891D-49A3-8F31-B61900BCCA11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
