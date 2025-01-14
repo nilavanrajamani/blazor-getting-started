@@ -1,4 +1,5 @@
 using BethanysPieShopHRM.Api.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,17 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddControllers();
 
+// 1. Add Authentication Services
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.Authority = "https://reactjsconsulting-devenv.auth0.com/";
+    options.Audience = "https://bethanypieshophrm.com/api";
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -43,6 +55,8 @@ app.UseBlazorFrameworkFiles();
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+
+app.UseAuthentication();
 
 app.UseRouting();
 
